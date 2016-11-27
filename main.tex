@@ -1,0 +1,99 @@
+\documentclass[12pt,a4paper,twoside]{extreport}
+
+
+\usepackage[textwidth=17cm,textheight=25cm,left=2.5cm]{geometry} % WM
+\usepackage[utf8]{inputenc}
+\usepackage[MeX]{polski} %WM
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{multicol}
+%\usepackage{color}
+%\usepackage{fancyvrb} 
+%\usepackage{listings}
+\usepackage{setspace}
+%\usepackage{defin} 
+\usepackage{rotating}
+\usepackage{textcomp}
+
+
+%\definecolor{tlo}{rgb}{0.85,0.85,0.85}
+%\renewcommand{\lstlistlistingname}{Spis programw}
+%\renewcommand{\lstlistingname}{Kod VHDL} 
+
+%\lstset{language=VHDL, basicstyle=\footnotesize, keywordstyle=\bfseries}
+
+
+%-------------------------------------------- ustawienie nagwka i stopki
+%\usepackage{muh}
+%\pagestyle{headings}
+%--------------------------------------------
+
+\title {Od Piotra Starego do Piotra Młodego. 
+\newline
+Siedem pokoleń rodziny Świerczyńskich.}
+\author {Czesław Świerczyński}
+\date {}
+
+%---------------------------------------------------------
+\begin {document}
+
+
+%------- strona tytuowa ---------
+%\onehalfspacing
+%\doublespacing
+%\maketitle
+%\cleardoublepage
+%---------------------------------
+
+
+\onehalfspacing 
+%\doublespacing  
+
+\chapter{Wstęp}
+\label{chap:wstep}
+\input{wstep.tex}
+
+\chapter{Rodzina Róży i Teodora Kusiów}
+\label{chap:kusiowie}
+\input{kusiowie.tex}
+
+\chapter{Rodzina Ludwiki i Józefa Świerczyńskich}
+\label{chap:ludwika_jozef_swierczynscy}
+\input{ludwika_jozef_swierczynscy.tex}
+
+\chapter{Karol Świerczyński}
+\label{chap:karol_swierczynski}
+\input{karol_swierczynski.tex}
+
+\chapter{Anastazja Świerczyńska}
+\label{chap:anastazja_swierczynska}
+\input{anastazja_swierczynska.tex}
+
+\chapter{Wiktor Świerczyński}
+\label{chap:wiktor_swierczynski}
+\input{wiktor_swierczynski.tex}
+
+\chapter{Rodzina Ireny i Antoniego Lehmanów}
+\label{chap:irena_antoni_lehman}
+\input{irena_antoni_lehman.tex}
+
+\chapter{Rodzina Radegundy i Benedykta Świerczyńskich}
+\label{chap:radegunda_benedykt_swierczynscy}
+\input{radegunda_benedykt_swierczynscy.tex}
+
+\chapter{Korzenie rodziny Eufemii i Edwarda Świerczyńskich}
+\label{chap:historia_swierczynskich}
+\input{historia_swierczynskich.tex}
+
+
+
+
+%dodatki
+%\appendix
+
+%----------- Spis treci ---------
+\tableofcontents
+\listoffigures
+%---------------------------------
+
+\end {document}
